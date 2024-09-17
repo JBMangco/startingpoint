@@ -1,0 +1,445 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-weight:100;
+  font-family:"Oswald";
+  font-size: 24px;
+}
+
+p{
+  font-family:"Oswald";
+  font-weight: 100;
+  font-size: 24px;
+}
+
+
+
+/* 
+
+DARK BLUE: #061C34 
+YELLOW: #FCCB06 
+RED: #F05353  
+
+TITLE 1: 
+font-family: Montserrat;
+text-transform: uppercase;
+font-size: 50px; 
+
+TITLE 2:
+font-weight: 300;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-size: 30px;
+
+BODY TEXT 1:
+font-size: 25px;
+line-height: 40px;
+
+BODY TEXT 2:
+font-size: 15px;
+line-height: 40px;
+
+NAV AND BUTTON"
+font-size: 20px;
+
+SPACING (MEDIA QUERIES)
+padding-right: 120px;
+padding-left: 120px;
+
+*/
+
+
+
+/**********/
+/* HEADER */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Header-Section{
+  display: flex;
+  flex-grow: 1;
+}
+
+.Header-Logo-Container{
+  max-height: 125px;
+}
+
+.Header-Logo{
+  max-height: 70px;
+  padding: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+.Header-Navigation-Container{
+  height: 100px;
+  background-color: #061C34;
+  border-radius: 0 0 0 100px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav{
+}
+
+nav ul{
+  float: right;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+}
+
+nav li a{
+  font-size: 20px;
+  margin: 20px;
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#Active-Page-Header{
+  cursor: default;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom: 5px solid #F05353;
+}
+
+nav li a:hover {
+  color: white;
+  border-bottom: 1px solid #F05353;
+}
+
+
+
+
+
+
+
+
+
+
+/***********/
+/* WELCOME */
+/***********/
+
+
+
+
+
+
+
+
+
+
+.Welcome-Section{
+  padding-top: 170px;
+  padding-bottom: 170px;
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  gap: 50px;
+}
+
+.Welcome-Description-Container{
+  width: 50%;
+  color: #061C34;
+}
+
+.Welcome-Title{
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.Welcome-Text{
+  padding-top: 20px;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+.Welcome-Graphic-Container{
+  width: 50%;
+}
+
+.Welcome-Graphic{
+  width: 100%;
+  justify-content: center;
+  object-fit: cover;
+}
+
+
+
+/*********/
+/* LEARN */
+/*********/
+
+
+
+
+.Learn-Section{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color:#F05353;
+}
+
+.Learn-Title{
+  text-align: center;
+  padding-bottom: 90px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+
+.Learn-Category-Container{
+  display: flex;
+  padding-right: 100px;
+  padding-left: 100px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.Panel-Graphic{
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.Panel-Container{
+  background-color: #061C34;
+  width: 1000px;
+  border-radius: 50px;
+}
+.Panel-Container:hover{
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.4);
+  scale: 101%;
+}
+
+.Panel-Description{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+  color:white;
+}
+
+.Panel-Title{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.Panel-Text{
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 40px;
+}
+
+.Panel-Button-Container {
+  display: flex;
+  justify-content: center;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 30px;
+  padding-top: 90px;
+}
+
+.Panel-Button {
+  font-size: 20px;
+  background: white;
+  width: 230px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #061C34;
+  border-radius: 50px;
+  border-width: 800px;
+  cursor: pointer;
+}
+
+.Panel-Button:hover {
+  background: #2BC0D1;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0,);
+}  
+
+
+
+
+
+
+
+
+
+/**********/
+/* FOOTER */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Footer-Section{
+  display: block;
+  justify-content: center;
+  background-color: #061C34;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.Footer-Signature{
+  width: 230px;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  filter: invert(100%);
+}
+
+.Footer-Navigation-Container{
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-Navigation-Container li{
+  margin: 0 25px;
+}
+
+.Footer-Navigation-Container a:hover {
+  border-bottom: 1px solid #F05353;
+}
+
+.Footer-Navigation-Container a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.Footer-Copyright{
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+
+  .Header-Section{
+    flex-direction: column;
+  }
+  .Header-Logo-Container{
+    display: block;
+    margin: auto;
+  }
+  .Header-Navigation-Container{
+    border-radius: 0 0 0 0;
+    justify-content: center;
+  }
+  nav ul:last-of-type{
+  padding-right: 0;
+}
+
+nav li a{
+  margin: 5px;
+}
+
+#Active-Page-Header{
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+/************************************************/
+
+  .Welcome-Section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .Welcome-Description-Container{
+    width: 100%;
+  }
+  .Welcome-Graphic-Container{
+    width: 100%;
+  }
+
+/************************************************/
+
+
+  .Learn-Category-Container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+
+  }
+
+  .Panel-Container{
+    width: 100%;
+  }
+
+}

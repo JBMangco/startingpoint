@@ -1,0 +1,496 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-weight:100;
+  font-family:"Oswald";
+  font-size: 24px;
+}
+
+p{
+  font-family:"Oswald";
+  font-weight: 100;
+  font-size: 24px;
+}
+
+
+
+/* 
+
+DARK BLUE: #061C34 
+YELLOW: #FCCB06 
+RED: #F05353  
+
+TITLE 1: 
+font-family: Montserrat;
+text-transform: uppercase;
+font-size: 50px; 
+
+TITLE 2:
+font-weight: 300;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-size: 30px;
+
+BODY TEXT 1:
+font-size: 25px;
+line-height: 40px;
+
+BODY TEXT 2:
+font-size: 15px;
+line-height: 40px;
+
+NAV AND BUTTON"
+font-size: 20px;
+
+SPACING (MEDIA QUERIES)
+padding-right: 120px;
+padding-left: 120px;
+
+*/
+
+
+
+/**********/
+/* HEADER */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Header-Section{
+  display: flex;
+  flex-grow: 1;
+}
+
+.Header-Logo-Container{
+  max-height: 125px;
+}
+
+.Header-Logo{
+  max-height: 70px;
+  padding: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+.Header-Navigation-Container{
+  height: 100px;
+  background-color: #061C34;
+  border-radius: 0 0 0 100px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav{
+}
+
+nav ul{
+  float: right;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+}
+
+nav li a{
+  font-size: 20px;
+  margin: 20px;
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#Active-Page-Header{
+  cursor: default;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom: 5px solid #F05353;
+}
+
+nav li a:hover {
+  color: white;
+  border-bottom: 1px solid #F05353;
+}
+
+
+
+
+
+
+
+
+
+
+/***********/
+/* WELCOME */
+/***********/
+
+
+
+.Learn-Section{
+  padding-top: 40px;
+  padding-right: 28%;
+  padding-left: 28%;
+  padding-bottom: 80px;
+}
+
+.Learn-Difficulty{
+  text-align: justify;
+  padding-left: 5px;
+  color:#061C34 ;
+}
+
+.Learn-Main-Title{
+  height:auto;
+  min-height:100px;
+  font-weight: 700;
+  text-align: center;
+  font-size:4.1vw;
+  text-transform: uppercase;
+  color:#061C34 ;
+}
+
+.Learn-Steps{
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding-right: 28%;
+  padding-left: 28%;
+}
+
+.Learn-Steps-Video{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-right: 28%;
+  padding-left: 28%;
+}
+
+.Learn-Steps-Hotkeys{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-right: 28%;
+  padding-left: 28%;
+}
+
+.Learn-Subtitle{
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.Learn-Order{
+  font-weight: 700;
+  font-size: 80px;
+  color: #061C34 ;
+}
+
+.Learn-Title{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  color:#061C34 ;
+}
+
+.Learn-Text{
+  text-align: justify;
+  color:#061C34 ;
+}
+
+.Learn-Text-2{
+  margin-top: 30px;
+  text-align: justify;
+  color:#061C34 ;
+}
+
+.Learn-Universal{
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.Learn-Photoshop-Hotkeys{
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.Learn-Video-Container{
+  padding-right: 28%;
+  padding-left: 28%;
+}
+
+.Learn-Video{
+  height: 470px;
+  margin-bottom: 100px;
+}
+
+.Learn-Tips{
+  padding-top: 10px;
+}
+
+.Learn-Tips li {
+  color: #061C34 ;
+  padding-top: 10px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+.Learn-End{
+  padding-top: 80px;
+  padding-bottom: 150px;
+  color: #061C34;
+}
+
+.Learn-End-Title{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Learn-End-Text{
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 40px;
+  text-align: center;
+}
+
+.Panel-Button-Container {
+  display: flex;
+  justify-content: center;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 20px;
+}
+
+.Panel-Button {
+  font-size: 20px;
+  background: #F05353;
+  width: 230px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 50px;
+  border-width: 800px;
+  cursor: pointer;
+}
+
+.Panel-Button:hover {
+  background: #061C34;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0,);
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********/
+/* FOOTER */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Footer-Section{
+  display: block;
+  justify-content: center;
+  background-color: #061C34;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.Footer-Signature{
+  width: 230px;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  filter: invert(100%);
+}
+
+.Footer-Navigation-Container{
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-Navigation-Container li{
+  margin: 0 25px;
+}
+
+.Footer-Navigation-Container a:hover {
+  border-bottom: 1px solid #F05353;
+}
+
+.Footer-Navigation-Container a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.Footer-Copyright{
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+
+  .Header-Section{
+    flex-direction: column;
+  }
+  .Header-Logo-Container{
+    display: block;
+    margin: auto;
+  }
+  .Header-Navigation-Container{
+    border-radius: 0 0 0 0;
+    justify-content: center;
+  }
+  nav ul:last-of-type{
+  padding-right: 0;
+}
+
+/************************************************/
+
+  .Welcome-Section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+  .Welcome-Description-Container{
+    width: 100%;
+  }
+  .Welcome-Graphic-Container{
+    width: 100%;
+  }
+
+/************************************************/
+
+  .Video-Section{
+    flex-direction: column;
+    background-color: #FCCB06;
+  }
+  .Video-Section{
+    width: 142.84%;
+    height: 991px;
+  }
+  .Video-Description-Container{
+    height: 200px;
+  }
+
+/************************************************/
+
+  .Panels-Section-Container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .Panels-Box-1{
+    width: 400px;
+  }
+  .Panels-Box-2{
+    width: 400px;
+  }
+  .Panels-Box-3{
+    width: 400px;
+  }
+  .Video-Description-Container{
+    width: 50%;
+    padding: 90px;
+  }
+
+/************************************************/
+
+  .Learn-Category-Container{
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,637 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-weight:100;
+  font-family:"Oswald";
+  font-size: 24px;
+}
+
+p{
+  font-family:"Oswald";
+  font-weight: 100;
+  font-size: 24px;
+}
+
+
+
+/* 
+
+DARK BLUE: #061C34 
+YELLOW: #FCCB06 
+RED: #F05353  
+
+TITLE 1: 
+font-family: Montserrat;
+text-transform: uppercase;
+font-size: 50px; 
+
+TITLE 2:
+font-weight: 300;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-size: 30px;
+
+BODY TEXT 1:
+font-size: 25px;
+line-height: 40px;
+
+BODY TEXT 2:
+font-size: 15px;
+line-height: 40px;
+
+NAV AND BUTTON"
+font-size: 20px;
+
+SPACING (MEDIA QUERIES)
+padding-right: 120px;
+padding-left: 120px;
+
+*/
+
+
+
+/**********/
+/* HEADER */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Header-Section{
+  display: flex;
+  flex-grow: 1;
+}
+
+.Header-Logo-Container{
+  max-height: 125px;
+}
+
+.Header-Logo{
+  max-height: 70px;
+  padding: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+.Header-Navigation-Container{
+  height: 100px;
+  background-color: #061C34;
+  border-radius: 0 0 0 100px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav{
+}
+
+nav ul{
+  float: right;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+}
+
+nav li a{
+  font-size: 20px;
+  margin: 20px;
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#Active-Page-Header{
+  cursor: default;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+  border-bottom: 5px solid #F05353;
+}
+
+nav li a:hover {
+  color: white;
+  border-bottom: 1px solid #F05353;
+}
+
+
+
+
+
+
+
+
+
+
+/***********/
+/* WELCOME */
+/***********/
+
+
+
+
+
+
+
+
+
+
+.Welcome-Section{
+  padding-top: 170px;
+  padding-bottom: 170px;
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  gap: 50px;
+}
+
+.Welcome-Description-Container{
+  width: 50%;
+  color: #061C34;
+}
+
+.Welcome-Title{
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.Welcome-Text{
+  padding-top: 20px;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+.Welcome-Graphic-Container{
+  width: 50%;
+}
+
+.Welcome-Graphic{
+  width: 100%;
+  justify-content: center;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+/**********/
+/* BANNER */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Banner-Section {
+  overflow: hidden;
+  color: #002145;
+}
+
+.Banner-Background {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/360063045_1272156017002358_8231618725827342111_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zV8jeM53vJYAX-gj-O5&_nc_ht=scontent.fmnl17-1.fna&oh=03_AdR80nY4QiweCqzAWhLwqzsI0jbFo9unAJoGaHAvDWyRYg&oe=64FC496E");
+  background-size: cover;
+}
+
+.Banner-Foreground {
+  backdrop-filter: blur(1px);
+}
+
+.Banner-Description {
+  margin-left: auto;
+  margin-right: auto;
+  color:#061C34;
+}
+
+.Banner-Title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.Banner-Title-First {
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+}
+
+.Banner-Icons {
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Banner-Icon {
+  height: 65px;
+}
+
+.Banner-Title-Last {
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+}
+
+.Banner-Text {
+  font-size: 25px;
+  line-height: 40px;
+  text-align: justify;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.Banner-Button-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.Banner-Button {
+  font-size: 20px;
+  background: #061C34;
+  width: 230px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 50px;
+  border-width: 800px;
+  cursor: pointer;
+}
+
+.Banner-Button:hover {
+  background: #F05353;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}  
+
+
+
+
+
+
+
+
+
+
+/**********/
+/* VIDEO */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Video-Section{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.Video-Container{
+  width: 70%;
+  height: 639px;
+  pointer-events: none;
+}
+
+.Video-Description-Container{
+  width: 30%;
+  background-color: #FCCB06;
+  padding: 140px;
+  color: #061C34;
+}
+
+.Video-Title{
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.Video-Text{
+  font-size: 25px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/**********/
+/* PANELS */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Panels-Section{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color:#F05353;
+}
+
+.Panels-Section-Container{
+  display: flex;
+  padding-right: 120px;
+  padding-left: 120px;
+  gap: 150px;
+  justify-content: center;
+  color: white;
+}
+
+.Panels-Box-Icon{
+  width: 150px;
+  display: block;
+  margin: auto;
+  filter: invert(100%);
+}
+
+.Panels-Box-1{
+  width: 23%;
+}
+
+.Panels-Box-2{
+  width: 23%;
+
+}
+.Panels-Box-3{
+  width: 23%;
+
+}
+
+.Panels-Box-Title{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Panels-Box-Text{
+  font-size: 18px;
+  letter-spacing: 2.5px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+/**********/
+/* FOOTER */
+/**********/
+
+
+
+
+
+
+
+
+
+
+.Footer-Section{
+  display: block;
+  justify-content: center;
+  background-color: #061C34;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.Footer-Signature{
+  width: 230px;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  filter: invert(100%);
+}
+
+.Footer-Navigation-Container{
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-Navigation-Container li{
+  margin: 0 25px;
+}
+
+.Footer-Navigation-Container a:hover {
+  border-bottom: 1px solid #F05353;
+}
+
+.Footer-Navigation-Container a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.Footer-Copyright{
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+
+  .Header-Section{
+    flex-direction: column;
+  }
+  .Header-Logo-Container{
+    display: block;
+    margin: auto;
+  }
+  .Header-Navigation-Container{
+    border-radius: 0 0 0 0;
+    justify-content: center;
+  }
+  nav ul:last-of-type{
+  padding-right: 0;
+}
+
+nav li a{
+  margin: 5px;
+}
+
+#Active-Page-Header{
+  margin-right: 5px;
+}
+
+
+/************************************************/
+
+  .Welcome-Section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .Welcome-Description-Container{
+    width: 100%;
+  }
+  .Welcome-Graphic-Container{
+    width: 100%;
+  }
+
+/************************************************/
+
+.Banner-Title{
+  flex-direction: column;
+}
+
+.Banner-Text{
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.Banner-Icons{
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+/************************************************/
+
+
+  .Video-Section{
+    flex-direction: column;
+    width: 100%;
+    background-color: #FCCB06;
+  }
+
+  .Video-Container{
+    width: 100%;
+  }
+
+  .Video-Description-Container{
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+/************************************************/
+
+  .Panels-Section-Container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .Panels-Box-1{
+    width: 130%;
+  }
+  .Panels-Box-2{
+    width: 130%;
+  }
+  .Panels-Box-3{
+    width: 130%;
+  }
+
+
+
+
+
+
+
+
+}
+
+
